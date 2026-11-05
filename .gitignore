@@ -1,0 +1,16 @@
+# secrets: never commit these
+.env
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# evaluation outputs (regenerated on every run)
+eval/results.json
+eval/results_perfect.json
+
+# editor / OS
+.vscode/
+.idea/
+.DS_Store
